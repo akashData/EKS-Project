@@ -1,3 +1,5 @@
+Amazon EKS Service: 
+
 Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed Kubernetes service. Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications
 
 Here we'll create an AWS EKS Cluster and deploy WordPress App on it. We'll create this complete Infrastructure using Terraform.
@@ -10,6 +12,7 @@ Here is Terraform to Create AWS EKS Cluster and Deploy Wordpress Infrastructure 
 Pre-requisite
 
 You need Kubectl, Terraform and AWSCLI installed
+
 Login into AWS CLI
 
 You need to login into AWS CLI using "aws configure" command
@@ -19,6 +22,7 @@ If you want to use any other profile then Update Profile in AWS Provider in this
 Run the Code
 
 Create AWS EKS Cluster -
+
 Go inside EKS-Cluster Directory and run the following commands
 
     terraform init
